@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.header{
+    min-height: 60px;
+    padding:1rem 5rem;
+    
+    background:#1F2937;
+    display: flex;              /* make header a flex container */
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.header-link{
+    display:flex;
+    gap: 15px; 
+}
+
+.header a{
+    text-decoration:none;
+    color:rgb(141, 137, 137);
+
+}
+.header p{
+    font-weight:900;
+    color:white;
+    font-size: 1.2rem;
+    
+}
+
+.website-info{
+    min-height: 300px;  /* sets approximate height */
+    padding: 1rem 5rem;      /* reasonable space for text */
+    
+    background:#1F2937;
+    display: flex;
+     
+    align-items: center; 
+    justify-content:space-between;
+}
+
+.website-info h1{
+    color:white;
+    padding-bottom: 5px;
+}
+
+.website-info p{
+    color:lightgrey;
+}
+
+.website-info p{
+    padding-bottom: 10px;
+}
+
+.website-info img{
+    width: 100%;
+    height :auto;
+}
+
+.button{
+    padding: 4px 20px;
+    background:rgb(0, 145, 255);
+    color:white;
+    border:none;
+    border-radius:4px;  
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+.sign-up{
+    width: 385px;
+    height: 250px;
+    padding-top:2.5rem;
+}
+
+.information{
+    min-height: 350px;  /* sets approximate height */
+    padding-top: 1.5rem;
+    
+}
+
+.information h2{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
+.subtext{
+    max-width: 150px;
+    text-align:center;
+    color:rgb(88, 84, 84);
+}
+
+
+.image-container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.quote-container{
+    min-height:325px;
+    padding: 2rem 5rem;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:#E5E7EB;
+    
+}
+
+.quote{
+    font-family: 'Roboto', sans-serif;
+    max-width: 625px;
+    font-style: italic; 
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900; /* use numeric value for thin weight */
+}
+
+.quote-author {
+    font-weight: 900;
+    font-size: 1.4rem;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.call-to-action{
+    min-height:300px;
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.call-to-action-sign-up{
+    background:rgb(0, 145, 255);
+    width: 800px;
+    height: 50px;
+    padding: 4rem 9rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-between
+}
+
+.left-side-call-to-action{
+    color:white;
+    
+}
+
+.left-side-call-to-action h3{
+    font-size: 1.8rem;
+    padding-bottom:7px;
+}
+
+.left-side-call-to-action p{
+    font-size: 1.1rem;
+    color:rgba(255, 255, 255, 0.754);
+}
+
+.right-side-call-to-action button{
+    padding: 0.5rem 2.3rem;
+    text-align:center;
+    background: rgb(0, 145, 255);
+    color:white;
+    border-color: white;
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight:650;
+}
+
+
+.right-side-call-to-action button:hover{
+    background-color:white;
+    color: rgb(0, 145, 255);
+
+    border-style:solid;
+    border-width: 2px;
+}
+
+
+.footer{
+    min-height: 85px;
+    border: solid;
+    background:#1F2937;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.copyright{
+    color:rgba(255, 255, 255, 0.715);
+}
+
+
